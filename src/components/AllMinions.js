@@ -7,6 +7,7 @@ import Minion from '../assets/img/minion.svg'
 import xButton from '../assets/img/x_button.svg'
 import addButton from '../assets/img/add_button.svg'
 import Arrow from '../assets/img/arrow.svg'
+import SearchMinion from './SearchMinion'
 
 const AllMinions = props => {
   const minions = props.minions.map(minion => {
@@ -33,6 +34,9 @@ const AllMinions = props => {
       <div id='minions-landing'>
         <div id='minions-title' className='label minions-label'>
           MINIONS.exe
+        </div>
+        <div className='search-by-name'>
+          <SearchMinion/>
         </div>
         <div id='all-minions'>
           {minions}

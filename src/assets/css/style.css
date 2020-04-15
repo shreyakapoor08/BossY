@@ -868,3 +868,10 @@ td:nth-last-child(1) {
 input, textarea {
   cursor: text;
 }
+
+.search-minion-container input{
+  margin: 10px;
+  background-color: #ff4f58;
+  width: 200px;
+  height: 30px;
+}
